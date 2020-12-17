@@ -1,10 +1,26 @@
+import React from 'react'
 
-import './App.css'
+import './app.css'
+
+/// import MainBanner from './components/BannerTitle'
+import PriceCard from './components/PriceCard'
 
 function App () {
   return (
-    <div>
+    <div className="content">
+
+      <div className="wrapper">
+        <h1 className="title">Bem vindo a nossa Loja</h1>
+
+      </div>
+
+      <div className="card">
+        <PriceCard/>
+        <p >Use seu celular para saber o preço do produto com desconto</p>
+      </div>
+
     </div>
+
   )
 }
 
